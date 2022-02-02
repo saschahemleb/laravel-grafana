@@ -4,17 +4,21 @@ namespace Saschahemleb\LaravelGrafana\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use Saschahemleb\PhpGrafanaApiClient\Api\Admin;
+use Saschahemleb\PhpGrafanaApiClient\Api\Datasource;
 use Saschahemleb\PhpGrafanaApiClient\Api\Organization;
 use Saschahemleb\PhpGrafanaApiClient\Api\Other;
 use Saschahemleb\PhpGrafanaApiClient\Api\Team;
 use Saschahemleb\PhpGrafanaApiClient\Api\User;
+use Saschahemleb\PhpGrafanaApiClient\Client;
 
 /**
+ * @method static Client inOrganization()
  * @method static User user()
  * @method static Team team()
  * @method static Other other()
  * @method static Admin admin()
  * @method static Organization organization()
+ * @method static Datasource datasource()
  */
 class Grafana extends Facade
 {
