@@ -9,10 +9,9 @@ use Saschahemleb\PhpGrafanaApiClient\Api\Organization;
 use Saschahemleb\PhpGrafanaApiClient\Api\Other;
 use Saschahemleb\PhpGrafanaApiClient\Api\Team;
 use Saschahemleb\PhpGrafanaApiClient\Api\User;
-use Saschahemleb\PhpGrafanaApiClient\Client;
 
 /**
- * @method static Client inOrganization()
+ * @method static mixed inOrganization(int $organizationId, callable $callable)
  * @method static User user()
  * @method static Team team()
  * @method static Other other()
