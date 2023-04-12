@@ -15,7 +15,7 @@
         "Grafana"
     ],
     "require": {
-        "illuminate/support": "~8|~9",
+        "illuminate/support": "~8|~9|~10",
         "guzzlehttp/guzzle": "^7.0",
         "saschahemleb/php-grafana-api-client": "v1.0.0-alpha.1"
     },
